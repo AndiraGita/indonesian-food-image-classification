@@ -1,10 +1,9 @@
-import streamlit as st
-from fastai.vision.all import *
 import PIL
 import time
 import requests
 import numpy as np
-from io import BytesIO
+import streamlit as st
+from fastai.vision.all import *
 
 def predict():
 
